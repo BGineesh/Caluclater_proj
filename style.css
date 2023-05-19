@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Baumans&family=Caveat&display=swap');
+/* 
+font-family: 'Allison', cursive;
+font-family: 'Baumans', cursive;
+font-family: 'Caveat', cursive;
+*/
+
+
+
+#name {
+  font-size: 3rem;
+  font-family: 'Baumans', cursive;
+  margin: 50px 0px 0px 340px;
+}
+
+main {
+  display: flex;
+}
+
+#container {
+  width: 27.5vw;
+  height: 80vh;
+  border-radius: 5px;
+  margin: 2vh 10vw 2vh 20vw;
+  padding: 5px;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.15s;
+}
+
+#container:hover {
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.6);
+}
+
+.valueContainerBox {
+  height: 25%;
+  margin: 5px;
+}
+
+#display {
+  position: relative;
+  top: 68%;
+  left: 0%;
+  font-size: 2.12rem;
+}
+
+.buttonContainer {
+  margin: 5px;
+  height: 70%;
+}
+
+button {
+  width: 70px;
+  height: 56px;
+  border: 0px;
+  border-radius: 50%;
+  font-size: 1.12rem;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #CCE7F5;
+}
+
+button:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+#ac,
+#pop,
+#parentheses,
+#module,
+#add,
+#mult,
+#sub,
+#equal {
+  background-color: #2689BA;
+  font-size: 1.3rem;
+}
+
+#history {
+  margin: 0vh 4vw 5vh 10vw;
+}
+
+#history>h1 {
+  font-family: 'Baumans', cursive;
+}
+
+#historyContainer {
+  width: 20vw;
+  height: 72vh;
+  border: 2px solid;
+  border-radius: 15px;
+}
